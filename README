@@ -1,0 +1,25 @@
+====== FAHSTATS version 0.1 (alpha) =======
+Author: Paul Panarese (paulnt04)
+
+About:
+This is a RubyOnRails Web Application for displaying Folding@Home statistics.
+Features:
+- Can display a single team (for TeAm websites) or multiple*
+- Displays Milestones (can be set in admin interface), daily deltas, and ranks
+- Has dedicated iPhone, Mobile, and iPad interfaces (coming soon!)**
+- Updates every 3 hours (can be set in admin interface).*
+
+* Please limit updates to the minimum per day. Each download hits the Stanford web servers. Please limit downloads to less than 24 per day. Otherwise, for statistics on every team, look at existing stat sites such as Kakaostats.com. Do not pull from these sites. Pull directly from Stanford!
+
+** Will use EXTJS and Sencha Touch, which are available for open-source projects. This project will remain open and free. Please, if you use EXTJS or Sencha Touch in any commercial products, pay your dues. They are great tools. All forks of this project must stay open-source and free under the license agreements of these tools.
+
+Requirements:
+
+This application uses RubyOnRails. Install Ruby and RubyGems(available on rubyforge.org) or as an alternative install RVM(rvm.beginrescueendj.com) then the Ruby of your choice (Ruby Enterprise Edition 1.8.7 or Ruby 1.9.2 or greater is recommented). Then install rails (run `gem install rails`. You may have to sudo if you are installing for system-wide use) and in the application directory run `bundle install`. This will install any necessary gems for this application. You may run the server standalone, or using Apache or Nginx using the Passenger Module. 
+
+Notes:
+This is an empty webapp for now. Please do not download and expect to use. This is an actively developed project with this as a git repository. When the release is in beta, it will be available for personal use at your own risk. Only when it hits final release Version 1.0 RC or greater will it be fully functional.
+
+Release History:
+
+0.1a	Inital Commit. Empty Rails application.
